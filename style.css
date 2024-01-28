@@ -1,0 +1,67 @@
+table, th, td{
+    border: solid 1px black;
+}
+
+#email{
+    background-color: blue;
+}
+
+ul>li{
+    background-color: greenyellow;
+}
+
+div{
+    border: solid 2px black;
+    padding: 10px;
+}
+
+h1 + p{
+    background-color: antiquewhite;
+}
+
+h1{
+    color: yellow;
+}
+
+div{
+    font-size: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+/* div:hover{
+    background-color: aqua;
+} */
+
+/* div:not(.ignore){
+    background-color: blue;
+    position:static;
+} */
+
+/* .ignore{
+    position: relative;
+    left: 200px;
+    top: 700px
+} */
+
+/* .top{
+    width: 10vw;
+    position: sticky;
+    top: 0;
+} */
+
+/* table{
+    position: fixed;
+    top:0
+} */
+/* table{
+    position: sticky;
+    top:0
+} */
+
+.parent{
+    border: solid 2px black;
+    width: 50%;
+    height: 800px;
+    background-color: antiquewhite;
+}
