@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container{
+            border: solid 2px grey;
+            width: 95vw;
+            height: 25vh;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .element{
+            height: 70%;
+        }
+
+        .logo{
+            background-color: rgb(69, 42, 151);
+            /* flex-grow: 1;
+            flex-basis: 150px; */
+            flex: 1 2 150px
+        }
+
+        .team{
+            background-color: rgb(121, 121, 231);
+            flex-grow: 4;
+            flex-shrink: 4;
+        }
+
+        .products{
+            background-color: rgb(240, 102, 102);
+            flex-grow: 4;
+            flex-shrink: 3;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <div class="container">
+        <div class="element logo"></div>
+        <div class="element team"></div>
+        <div class="element products"></div>
+    </div>
+
+</body>
+</html>
