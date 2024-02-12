@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .body{
+            font-size: 20px;
+        }
+        .grandparent{
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 15px;
+        }
+
+        .parent{
+            height: 150px;
+            width: 150px;
+            background-color: blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 15px;
+        }
+
+        .child{
+            height: 100px;
+            width: 100px;
+            background-color: green;
+            font-size: 15px;
+        }
+    </style>
+
+</head>
+<body>
+    <form>
+        <input id="button" type="button" name="test" value="Click me">
+    </form>
+    <br>
+    <button onclick="alert(this.innerHTML)">Hello there</button>
+
+    <br>
+    <br>
+
+    <div class="grandparent"> 
+        <div class="parent">
+            <div class="child"></div>
+        </div>
+    </div>
+<!-- 
+    <script>
+
+        //option1
+        // function inform(){
+        //     alert("You clicked me")
+        // }
+
+        //option2
+        // document.getElementById('button').onclick = function(){
+        //     alert('Clicked!')
+        // };
+
+
+    // </script> -->
+
+    <script src="eventListeners.js"></script>
+</body>
+</html>

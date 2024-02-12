@@ -1,0 +1,25 @@
+/* *{
+    background-color: red;
+} */
+
+body{
+    margin: 0;
+}
+
+
+h1{
+    color: green;
+}
+
+/* #pink{
+    background-image: url(https://www.wfla.com/wp-content/uploads/sites/71/2023/05/GettyImages-1389862392.jpg?w=2560&h=1440&crop=1);
+    width: 100vw;
+    height: 100vh;
+} */
+
+h3 ~ p{
+    background-color: pink;
+    border: 10px solid red;
+    padding: 20px;
+    margin: 40px;
+}

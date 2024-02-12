@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #jsstyle {
+            height: 150px;
+            width: 250px;
+            font-size: 30px;
+            padding: 10px 20px;
+            background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    
+    <button id="jsstyle">Style</button> 
+    <a href="https://octopus.developers.institute/courses/collection/98/course/11/section/43/chapter/169">link</a>
+
+
+    <script>
+
+        //1st step: retrieve the element
+
+        const button = document.getElementById('jsstyle')
+
+        //2nd step: add eventListener
+        button.addEventListener('mouseover', () => {
+            button.style.backgroundColor = 'red'
+        } )
+
+        button.addEventListener('mouseout', () => {
+            button.style.backgroundColor = 'blue'
+        } )
+
+        button.addEventListener('unload', () => {
+            alert('Dont go!')
+        } )
+
+    </script>
+
+</body>
+</html>
