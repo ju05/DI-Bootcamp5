@@ -1,0 +1,18 @@
+Week2 - JS Basics
+
+XP
+Day1 - Primitive types and arrays
+The guess the answers were a bit repetitive sometimes, and I felt like some of the more interesting things went unexplained
+
+Day2 - Conditionals
+I took extra care in trying to account for bad cases and that proved to be interesting and made me use the operators. My one trip up in this was needing to define before I could use the replace command. It was a good review of some of the string coms
+
+DC
+Day1 - Primitive types
+second one was very easy but I had some trouble with the first one because I wasn't using splice correctly and didn't put the parentheses after pop and shift.
+
+Day2 - Conditionals
+There could have been more use of the switch stuff but we did use a good amount of if statements. the last one was tricky as I kept messing up the syntax for join and slice and that I needed to put userlength-2 in parentheses in the string.
+
+
+
